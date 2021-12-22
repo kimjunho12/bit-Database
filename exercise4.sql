@@ -299,7 +299,7 @@ FROM
     emp e
         RIGHT JOIN
     dept d USING (deptno)
-ORDER BY 부서명;
+ORDER BY d.dept;
 
 -- 16. 사원번호와 사원이름, 그리고 그 사원을 관리하는 관리자의 
 --   사원번호와 사원이름을 출력하되 각각의 컬럼명을 '사원번호',
